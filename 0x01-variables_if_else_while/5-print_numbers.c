@@ -1,20 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Entry point
- * author: sammy
- * Return: Always 0 (Success/correct)
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-  int sammy;
+	int i;
 
-  for (sammy = 0; sammy < 10; sammy++)
-  {
-     printf("%d", sammy);
-  }
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+	printf("\n");
 
-  printf("\n");
-
-  return (0);
+	return (0);
 }
