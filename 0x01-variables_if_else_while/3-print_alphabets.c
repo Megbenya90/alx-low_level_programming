@@ -1,29 +1,22 @@
 #include <stdio.h>
-<<<<<<< HEAD
-=======
+#include <time.h>
+#include <stdlib.h>
 
->>>>>>> e9a8801973f5df04383dadeefd8e4375b6a7d748
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-  char c;
-  char d;
+	char low;
 
-  for (c = 'a'; c <= 'z'; c++)
-  {
-		putchar(c);
-  }
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
+	putchar('\n');
 
-  for (d = 'A'; d <= 'Z'; d++)
-  {
-		putchar(d);
-  }
-
-  putchar('\n');
- 
-  return (0);
+	return (0);
 }
