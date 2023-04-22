@@ -1,5 +1,8 @@
 #include <stdio.h>
+<<<<<<< HEAD
+=======
 
+>>>>>>> e9a8801973f5df04383dadeefd8e4375b6a7d748
 /**
  * main - Entry point
  *
