@@ -1,21 +1,26 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
- * author: sammy
- * Return: Always 0 (Success)
+ *
+ * Return: always 0 (success)
  */
+
 int main(void)
 {
-  char sammy;
+	char low, e, q;
 
-  for (sammy = 'a'; sammy <= 'z'; sammy++)
-  {
-     if (sammy != 'q' && sammy != 'e')
-        putchar(sammy);
-  }
+	e = 'e';
+	q = 'q';
 
-  putchar('\n');
+	for (low = 'a'; low <= 'z'; low++)
+	{
+		if (low != e && low != q)
+			putchar(low);
+	}
+	putchar('\n');
 
-  return (0);
+	return (0);
 }
