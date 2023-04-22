@@ -1,18 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Entry point
- * author: sammy
- * Return: Always 0 (Success)
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-  int sammy;
+	int d;
 
-  for (sammy = 48; sammy < 58; sammy++)
-      putchar(sammy);
+	for (d = '0'; d <= '9'; d++)
+		putchar(d);
+	putchar('\n');
 
-  putchar('\n');
-
-  return (0);
+	return (0);
 }
